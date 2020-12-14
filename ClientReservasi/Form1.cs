@@ -100,5 +100,12 @@ namespace ClientReservasi
             textBoxID.Enabled = false;
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login R = new Login();
+            this.Hide();
+            R.ShowDialog();
+        }
     }
 }
